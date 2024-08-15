@@ -64,7 +64,7 @@ void setTime() {
 
 void setup() {
 
-  Serial.begin();
+
 
   // using this board can work on battery
   pinMode(15,OUTPUT);
