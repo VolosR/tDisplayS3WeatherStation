@@ -1,8 +1,8 @@
-#include <WiFiManager.h>
+#include <WiFiManager.h>  // https://github.com/tzapu/WiFiManager  version 2.0.17
 #include <TFT_eSPI.h>
-#include <ArduinoJson.h>
-#include <HTTPClient.h>
-#include <ESP32Time.h>
+#include <ArduinoJson.h> // 7.1.0
+#include <HTTPClient.h> // https://github.com/arduino-libraries/ArduinoHttpClient   version 0.6.1
+#include <ESP32Time.h>  // https://github.com/fbiego/ESP32Time  verison 2.0.6
 #include "NotoSansBold15.h"
 #include "tinyFont.h"
 #include "smallFont.h"
