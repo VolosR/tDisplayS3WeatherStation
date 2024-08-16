@@ -213,7 +213,7 @@ void draw() {
   //RIGHT SIDE
   sprite.loadFont(font18);
   sprite.setTextColor(grays[1], TFT_BLACK);
-  sprite.drawString("LAST 12 HOUR", 144, 10);
+  sprite.drawString("LAST 12 HOURS", 144, 10);
   sprite.unloadFont();
 
   sprite.fillRect(144, 28, 84, 2, grays[10]);
