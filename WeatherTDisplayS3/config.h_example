@@ -1,0 +1,20 @@
+// Example file - put your own data in here
+
+#ifndef CONFIG_H
+#define CONFIG_H
+
+//#################### EDIT THIS  ###################
+#define OPENWEATHER_API_KEY "f00bar"
+
+#define TOWN_COUNT 3
+// Only Danish towns in this example
+const char* towns[TOWN_COUNT] = {"Copenhagen", "Oslo", "Malmø"};
+
+#define NTPSERVER "dk.pool.ntp.org"
+#define WEATHERSERVER "https://api.openweathermap.org/data/2.5/weather?q="
+
+#define TIMEZONE 2
+#define METRICORIMPERIAL "metric"
+//#################### end of edits ###################
+
+#endif // CONFIG_H
